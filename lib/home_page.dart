@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
               height: 45,
               child: ElevatedButton(
                 onPressed: () {
-
+                  receivePressed();
                 },
                 child: const Text(
                   "Receive",
@@ -54,4 +54,10 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
+
+  void receivePressed() {
+    // when this button is pressed we need to turn on scanning for nearby ble
+    // enabled devices and read data from them.
+  }
+
 }
