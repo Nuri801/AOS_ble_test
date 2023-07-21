@@ -52,6 +52,7 @@ class FlutterBlePeripheralExampleState
 
   bool _isSupported = false;
 
+
   @override
   void initState() {
     super.initState();
