@@ -114,6 +114,7 @@ class FlutterBlePeripheralExampleState
     }
   }
 
+
   Future<void> _hasPermissions() async {
     final hasPermissions = await FlutterBlePeripheral().hasPermission();
     _messangerKey.currentState?.showSnackBar(
