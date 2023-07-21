@@ -129,6 +129,7 @@ class FlutterBlePeripheralExampleState
 
   final _messangerKey = GlobalKey<ScaffoldMessengerState>();
 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
