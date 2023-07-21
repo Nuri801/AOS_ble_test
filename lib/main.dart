@@ -85,6 +85,7 @@ class FlutterBlePeripheralExampleState
     }
   }
 
+
   Future<void> _requestPermissions() async {
     final hasPermission = await FlutterBlePeripheral().hasPermission();
     switch (hasPermission) {
