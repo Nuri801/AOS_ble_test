@@ -32,6 +32,7 @@ class FlutterBlePeripheralExample extends StatefulWidget {
       FlutterBlePeripheralExampleState();
 }
 
+
 class FlutterBlePeripheralExampleState
     extends State<FlutterBlePeripheralExample> {
   final AdvertiseData advertiseData = AdvertiseData(
